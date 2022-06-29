@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #0B2434;
+    padding: 20px;
+}
+
+main {
+    background-color: #F5F5F5;
+    height: 400px;
+    max-width: 800px;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em auto;
+}
+
+.dice-container {
+    display: grid;
+    grid-template: auto auto / repeat(5, 1fr);
+    gap: 20px;
+}
+
+.title {
+    font-size: 40px;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.instruction {
+    font-weight: 400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 0;
+    text-align: center;
+}
+
+.die-num {
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.timer {
+    font-weight: 400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+    display: flex;
+}
+
+.confetti {
+    margin: 0 auto;
+}
+
+
+.die-face {
+    height: 50px;
+    width: 50px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+button {
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 6px;
+    background-color: #5035ff;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 1em;
+    
+}

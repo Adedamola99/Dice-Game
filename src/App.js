@@ -2,13 +2,13 @@ import React from "react";
 import Die from "./Component/Die";
 import { nanoid } from 'nanoid';
 import Confetti from "react-confetti";
+import Timer from "./Component/Timer";
 
 
 const App = () => {
-
+   
   const [dice, setDice] = React.useState(allNewDice())
   const[tenzies, setTenzies] = React.useState(false)
-
 
   
 
@@ -16,7 +16,6 @@ const App = () => {
     const allHeld = dice.every(die => die.isHeld)
     const firstValue = dice[0].value
     const allSameValue = dice.every(die => die.value === firstValue)
-
 
     if (allHeld && allSameValue) {
       setTenzies(true)
@@ -73,6 +72,9 @@ const App = () => {
 
 
 
+
+
+
   const diceElement = dice.map(die => 
     <Die 
       key={die.id} 
@@ -93,8 +95,8 @@ const App = () => {
       <div className="dice-container">
         {diceElement}
       </div>
-      <div></div>
       {tenzies ? <button onClick={rollDice}>New Roll</button> : <button onClick={rollDice}>Roll</button>}
+      <Timer/>
     </main>
   )
 }

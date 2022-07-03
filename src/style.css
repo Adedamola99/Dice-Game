@@ -19,6 +19,7 @@ main {
     justify-content: center;
     align-items: center;
     margin: 1em auto;
+    position: relative;
 }
 
 .dice-container {
@@ -81,3 +82,16 @@ button {
     margin-top: 1em;
     
 }
+
+/* .count {
+    font-weight: 400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    right: 30px;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: 1.1em;
+    margin-bottom: 3px;
+} */

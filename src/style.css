@@ -47,12 +47,6 @@ main {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.timer {
-    font-weight: 400;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 1em;
-    display: flex;
-}
 
 .confetti {
     margin: 0 auto;
@@ -83,15 +77,23 @@ button {
     
 }
 
-/* .count {
+.tracker {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.timer, .roll, .best-time {
     font-weight: 400;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    position: absolute;
-    right: 30px;
-    bottom: 0;
-    background-color: black;
-    color: white;
-    padding: 5px;
-    font-size: 1.1em;
-    margin-bottom: 3px;
-} */
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    color: #062b3c;
+}
+
+.tracker h4 {
+    margin-left: 5px;
+}
+

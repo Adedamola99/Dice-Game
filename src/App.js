@@ -14,11 +14,11 @@ const App = () => {
 
 // Timer Starts here
 
-const initialMinute = 0;
-const initialSeconds = 30;
+// const initialMinute = 0;
+// const initialSeconds = 30;
 
-const [minutes, setMinutes] = React.useState(initialMinute);
-const [seconds, setSeconds] = React.useState(initialSeconds);
+const [minutes, setMinutes] = React.useState(0);
+const [seconds, setSeconds] = React.useState(30);
 
 
 React.useEffect(() => {
@@ -150,7 +150,6 @@ React.useEffect(() => {
         {diceElement}
       </div>
       {tenzies ? <button onClick={rollDice}>New Roll</button> : <button onClick={rollDice}>Roll</button>}
-      {/* <Timer/> */}
       <div className="tracker">
       <p className="roll">Roll: <h4>{countRoll}</h4></p>
       <p className="timer">Time: { minutes === 0 && seconds === 0  ? <h4>0:00</h4>: <h4>{minutes}:{seconds < 10 ? `0${seconds}` : seconds}</h4>}</p>

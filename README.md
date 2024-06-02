@@ -1,3 +1,3 @@
-# Dice Game ReadMe File
+# Dice Game Docs 🍜
 
 ...

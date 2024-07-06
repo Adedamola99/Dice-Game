@@ -1,3 +1,3 @@
-# Dice Game Docs 🍜
+# Dice Game Docs 
 
 Construction in progress⚒️⛏️🔮🔥...

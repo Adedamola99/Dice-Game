@@ -1,3 +1,3 @@
 # Dice Game Docs 
 
-Construction in progress⛏️...
+Construction in progress 

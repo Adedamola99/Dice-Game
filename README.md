@@ -1,3 +1,3 @@
 # Dice Game Docs 
 
-Read me Construction in progress 
+Read me Construction in progres...

@@ -1,7 +1,3 @@
-Here’s a professional README you can use for your React‑Comment‑App README similar for Dice‑Game repo» repository — written so it’s clean, helpful, and ready for anyone checking out your Dice-Game project:
-
-⸻
-
 🎲 Dice Game
 
 A fun and interactive Dice Game built with HTML, CSS & JavaScript — perfect for practicing DOM manipulation, game logic, and user interaction skills.
